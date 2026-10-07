@@ -1593,7 +1593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Reiniciar
+  m_Text: Restart
 --- !u!222 &1457038934
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1852,7 +1852,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Objetos: 0 / 3'
+  m_Text: 'Counter: 0 / 3'
 --- !u!222 &1663804948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2689,7 +2689,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Flechas: mover | Recoge los 3 cubos amarillos y llega al bloque verde.'
+  m_Text: Move with the arrows and pick up the yellow blocks then go to the green
+    one.
 --- !u!222 &1898534536
 CanvasRenderer:
   m_ObjectHideFlags: 0

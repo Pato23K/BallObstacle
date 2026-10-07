@@ -33,7 +33,6 @@ public class BallController : MonoBehaviour
     {
         if (game != null && game.HasWon) return;
 
-        // Empujar la pelota directamente, sin torque.
         body.AddForce(direction * speed, ForceMode.Acceleration);
         Vector3 horizontal = new Vector3(body.linearVelocity.x, 0f, body.linearVelocity.z);
         horizontal = Vector3.ClampMagnitude(horizontal, maxSpeed);

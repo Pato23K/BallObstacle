@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        counterText.text = "Objetos: 0 / 3";
+        counterText.text = "Objects: 0 / 3";
         messageText.text = "";
     }
 
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
             {
                 item.SetActive(false);
                 Collected++;
-                counterText.text = "Objetos: " + Collected + " / 3";
+                counterText.text = "Objects: " + Collected + " / 3";
                 messageText.text = "";
                 return;
             }
@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
                 platform.enabled = false;
             }
             else
-                messageText.text = "Recoge los 3 objetos antes de llegar a la meta.";
+                messageText.text = "Pick up the 3 yellow blocks for win.";
         }
     }
 
@@ -65,7 +65,6 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        // Recargar la escena restaura todos los objetos a su estado inicial.
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
